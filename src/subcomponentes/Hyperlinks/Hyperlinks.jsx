@@ -6,10 +6,10 @@ export function Hyperlinks() {
   return (
     <>
       <div className='hyperlinks'>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/portafolio-web'>Home</Link>
+        <Link to='/portafolio-web/about'>About</Link>
+        <Link to='/portafolio-web/projects'>Projects</Link>
+        <Link to='/portafolio-web/contact'>Contact</Link>
       </div>
     </>
   )

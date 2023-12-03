@@ -6,7 +6,7 @@ export function HomePage () {
   const slides = [
     './src/images/JhohanNBG.jpg',
     './src/images/KarolNBG.jpg',
-    './src/images/AlexNBG.jpg'
+    './portafolio-web/src/images/AlexNBG.jpg'
   ]
 
   return (

@@ -13,7 +13,7 @@ export function TeamInfo () {
           <CardMember />
         </div>
         <div className='btnAdmin'>
-          <button><a href='/login'>Log in as administrator</a></button>
+          <button><a href='/portafolio-web/login'>Log in as administrator</a></button>
         </div>
       </div>
     </>
