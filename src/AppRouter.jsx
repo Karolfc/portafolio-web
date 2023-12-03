@@ -9,47 +9,47 @@ function App () {
     <AuthProvider>
       <Routes>
         <Route
-          path='/'
+          path='/portafolio-web/'
           element={<HomePage />}
         />
 
         <Route
-          path='/about'
+          path='/portafolio-web/about'
           element={<AboutUsPage />}
         />
 
         <Route
-          path='/projects'
+          path='/portafolio-web/projects'
           element={<ProjectsPage />}
         />
 
         <Route
-          path='/contact'
+          path='/portafolio-web/contact'
           element={<ContacPage />}
         />
 
         <Route
-          path='/login'
+          path='/portafolio-web/login'
           element={<LoginPage />}
         />
 
         <Route
-          path='/dashboard'
+          path='/portafolio-web/dashboard'
           element={<Dashboard />}
         />
 
         <Route
-          path='/edit'
+          path='/portafolio-web/edit'
           element={<ProjectsEditPage />}
         />
 
         <Route
-          path='/create'
+          path='/portafolio-web/create'
           element={<CreateProjectPage />}
         />
 
         <Route
-          path='/*'
+          path='/portafolio-web/*'
           element={<PageNotFound />}
         />
       </Routes>
